@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-pjku
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/omachace-tenant/my-app/devfile-sample-pjku@sha256:c0b7e05c5873241892462fe79d3f381d08676c5a2d059871be4ab77544637e90
+        name: my-nodejs
+        resources: {}
+status: {}
