@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-pjku
     app.kubernetes.io/part-of: my-app
-  name: devfile-sample-pjkuzeq6
+  name: devfile-sample-pjkuchwt
 spec:
   path: /
   port:
