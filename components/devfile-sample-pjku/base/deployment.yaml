@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-pjku
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/omachace-tenant/my-app/devfile-sample-pjku@sha256:6c5598996e60faf6a502145146bf1090ed49d594f091ca097b0afa58529ee84e
+      - image: quay.io/redhat-user-workloads-stage/omachace-tenant/my-app/devfile-sample-pjku@sha256:c0b7e05c5873241892462fe79d3f381d08676c5a2d059871be4ab77544637e90
         name: my-nodejs
         ports:
         - containerPort: 3001
